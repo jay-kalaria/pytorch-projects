@@ -1,0 +1,55 @@
+# Data files
+*.csv
+*.zip
+*.xlsx
+*.xls
+*.dat
+*.db
+*.sqlite
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+.env/
+.venv/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Kaggle credentials
+kaggle.json
+
+# Large files and directories
+data/
+datasets/
+models/
+*.h5
+*.pkl
+*.pt
+*.pth
+
+# Logs
+*.log
+logs/
+tensorboard/
